@@ -5,5 +5,5 @@ function register(){
     localStorage.setItem("uname",username)
     localStorage.setItem("pswd",password)
         alert("Registration successful!")
-        window.location.href="login.html"
+        window.location.href="index.html"
 }

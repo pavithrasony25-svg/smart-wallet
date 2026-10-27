@@ -57,5 +57,5 @@ const username=localStorage.getItem("uname")
 document.getElementById("head1").innerHTML=`Welcome ${username}`
 
 function logout(){
-    window.location.href="login.html"
+    window.location.href="index.html"
 }
