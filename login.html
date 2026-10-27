@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>self</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-image: url("image1.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        .btn-pink {
+            background-color: #ff6584;
+            color: #ffffff;
+            transition: all 0.2s ease;
+        }
+        .btn-pink:hover {
+            background-color: #e85573;
+            color: #ffffff;
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body class="d-flex justify-content-center align-items-center min-vh-100 m-0" >
+    
+        <div class="bg-white rounded-5 shadow-lg p-4 border border-5 border-danger-subtle text-center" style="width: 310px; margin-top:30px; transform: translateX(-400px);"> 
+           <h2 class="fw-bold mb-4 text-danger">Family Wallet</h2>
+            <input type="text" id="uname" class=" form-control rounded-pill border-danger-subtle py-2 px-3 " placeholder="username">
+                        <input type="password"id="pswd" class=" form-control rounded-pill border-danger-subtle py-2 px-3 mt-4" placeholder="password">
+<div class="text-center">
+    <button onclick="login()" class="btn btn-pink border mt-3">Login</button>
+</div>
+       <div class="text-center pt-2">
+            <p class="text-muted small mb-1">New user?</p>
+            <button onclick="window.location.href='register.html'" class="btn btn-outline-pink btn-pink rounded-pill w-100 py-2 fw-semibold">
+                Register
+            </button>
+        </div>
+    
+</body>
+<script src="./login.js"></script>
+</html>
